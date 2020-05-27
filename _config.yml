@@ -52,7 +52,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -97,9 +97,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -117,12 +117,12 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
+  about: /about/ || fa fa-user
   #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -163,9 +163,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar.jpg
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -177,9 +177,10 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  GitHub: https://github.com/onlyfew || fab fa-github
+  E-Mail: mailto:onlyfew@gmail.com || fa fa-envelope
+  微博: https://weibo.com/onlyfew || fab fa-weibo
+  知识星球: https://t.zsxq.com/Iiy3NZB || fa fa-globe
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -276,8 +277,8 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  微信公众号: /uploads/wechat-qcode.jpg || fab fa-weixin
+  RSS订阅: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -354,21 +355,21 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night bright
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -582,7 +583,7 @@ comments:
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: 支离书
   count: true
   #post_meta_order: 0
 
@@ -676,7 +677,7 @@ google_analytics:
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: 029fe54e546a0b0a07ce44d0f05b3b73
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
