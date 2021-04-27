@@ -49,8 +49,7 @@
       {%- set next_site = 'https://' + theme.scheme | lower + '.theme-next.org' %}
     {%- endif %}
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'}) + ' & ' + next_url(next_site, 'NexT.' + theme.scheme, {class: 'theme-link'})) }}
-    <img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png">
-    <a href="https://beian.miit.gov.cn/"  style="color:#f72b07" target="_blank">京ICP备20000333号-1</a>
+    <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备20000333号-1</a>
   </div>
 {%- endif %}
 
